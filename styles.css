@@ -231,3 +231,22 @@
     padding: 12px;
   }
 }
+
+/* PREMIUM TYPOGRAPHY */
+
+body, button, a, p, span {
+  font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.055em;
+}
+
+.statement h2 em {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.02em;
+}
