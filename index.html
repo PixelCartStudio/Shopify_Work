@@ -8,11 +8,9 @@
   <title>Pixel.cartstudio — Shopify Design & Development</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2" />
-  <script src="script.js?v=2" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3" />
+  <script src="script.js?v=3" defer></script>
 </head>
 <body>
   <div class="site-shell" id="top">
@@ -22,7 +20,12 @@
       <button class="menu-button" id="menuToggle" aria-expanded="false" aria-controls="siteMenu">[ MENU <span class="menu-mark">+</span> ]</button>
     </header>
     <nav class="menu-panel" id="siteMenu" aria-label="Main menu" inert>
-      <a href="#projects">Projects <span>01</span></a><a href="#services">Services <span>02</span></a><a href="#approach">Approach <span>03</span></a><a href="#contact">Contact <span>04</span></a>
+      <a href="#projects">Projects <span>01</span></a>
+      <a href="#services">Services <span>02</span></a>
+      <a href="#brands">Brands <span>03</span></a>
+      <a href="#reels">Reels <span>04</span></a>
+      <a href="#approach">Approach <span>05</span></a>
+      <a href="#contact">Contact <span>06</span></a>
     </nav>
     <main>
       <section class="hero" aria-labelledby="heroTitle">
@@ -30,24 +33,88 @@
         <h1 id="heroTitle">WE BUILD<br><span>SHOPIFY</span> STORES<span class="period">.</span></h1>
         <div class="hero-bottom"><span class="tiny-coordinate">DESIGN-LED.<br>PERFORMANCE-MINDED.</span><p>Distinctive Shopify experiences for brands that want to stand out, sell more, and grow with confidence.</p><a href="#projects" class="text-link">EXPLORE WORK <span aria-hidden="true">↘</span></a></div>
       </section>
+
       <section class="projects section" id="projects" aria-labelledby="projectTitle">
         <div class="section-bar"><h2 id="projectTitle">[ SELECTED PROJECTS ]</h2><span id="projectCount">[ SELECTED WORK / 06 ]</span></div>
         <div class="work-heading"><p>Commerce, with character<span class="period">.</span></p><span>A CURATED SELECTION OF SHOPIFY STORES<br>DESIGNED TO LOOK GOOD AND WORK HARD.</span></div>
         <div class="project-grid" id="projectGrid"></div>
         <div class="project-outro"><span>EVERY BRAND HAS A STORY. YOUR STORE SHOULD TELL IT.</span><a href="#contact">HAVE A PROJECT IN MIND? ↗</a></div>
       </section>
+
       <section class="statement" aria-labelledby="statementTitle"><p class="section-kicker">[ WHAT WE DO ]</p><h2 id="statementTitle">YOUR PRODUCTS<br>DESERVE A <em>BETTER</em><br>STOREFRONT<span class="period">.</span></h2><div class="statement-bottom"><p>We bring strategy, design and clean Shopify development together to turn good brands into memorable online shopping experiences.</p><a href="#contact" class="round-arrow" aria-label="Get in touch">↗</a></div></section>
-      <section class="services section" id="services" aria-labelledby="servicesTitle"><div class="section-bar"><h2 id="servicesTitle">[ OUR EXPERTISE ]</h2><span>[ WHAT WE CAN BUILD ]</span></div><div class="service-grid">
-        <article class="service"><span class="service-num">01 / DISCOVER</span><h3>Strategy</h3><p>We define the store structure, user journeys, and the right approach for your audience and products.</p><span class="service-symbol">↗</span></article>
-        <article class="service"><span class="service-num">02 / DESIGN</span><h3>UI / UX</h3><p>Beautiful, intuitive storefronts with thoughtful layouts, strong product storytelling, and mobile-first design.</p><span class="service-symbol">↗</span></article>
-        <article class="service"><span class="service-num">03 / BUILD</span><h3>Development</h3><p>Custom Shopify sections, theme customization, integrations, speed-focused builds and seamless shopping flows.</p><span class="service-symbol">↗</span></article>
-        <article class="service"><span class="service-num">04 / IMPROVE</span><h3>Optimization</h3><p>Conversion-focused improvements, collection and product page enhancements, and ongoing store support.</p><span class="service-symbol">↗</span></article>
-      </div></section>
+
+      <!-- SERVICES -->
+      <section class="pc-services section" id="services" aria-labelledby="servicesTitle">
+        <div class="section-bar"><h2 id="servicesTitle">[ OUR SERVICES ]</h2><span>[ WHAT WE DO / 05 ]</span></div>
+        <div class="pc-services-head"><p>Ideas, built <em>to sell</em><span class="period">.</span></p><span>FROM THE FIRST STRATEGY CALL<br>TO THE FINAL FRAME OF THE REEL.</span></div>
+        <div class="pc-svc-list">
+          <article class="pc-svc">
+            <span class="pc-svc-num">01</span>
+            <h3>Shopify <em>Development</em></h3>
+            <div class="pc-svc-body"><p>Custom themes, sections and integrations — fast, clean storefronts that are easy for your team to manage.</p><ul class="pc-svc-tags"><li>Custom Themes</li><li>Sections</li><li>Speed</li><li>Integrations</li></ul></div>
+            <span class="pc-svc-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="pc-svc">
+            <span class="pc-svc-num">02</span>
+            <h3>Creative <em>Strategy</em></h3>
+            <div class="pc-svc-body"><p>Launch plans, campaign ideas and content direction rooted in your audience, your product and your numbers.</p><ul class="pc-svc-tags"><li>Campaigns</li><li>Content Pillars</li><li>Launches</li></ul></div>
+            <span class="pc-svc-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="pc-svc">
+            <span class="pc-svc-num">03</span>
+            <h3>Design <em>&amp; Decks</em></h3>
+            <div class="pc-svc-body"><p>Brand visuals, ad creatives, pitch and sales decks that make the right first impression — every time.</p><ul class="pc-svc-tags"><li>Brand Visuals</li><li>Pitch Decks</li><li>Ad Creatives</li></ul></div>
+            <span class="pc-svc-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="pc-svc">
+            <span class="pc-svc-num">04</span>
+            <h3>AI Video <em>&amp; Motion</em></h3>
+            <div class="pc-svc-body"><p>AI-powered product films, motion graphics and animated ads made for scroll-heavy feeds.</p><ul class="pc-svc-tags"><li>AI Video</li><li>Motion Graphics</li><li>Animated Ads</li></ul></div>
+            <span class="pc-svc-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="pc-svc">
+            <span class="pc-svc-num">05</span>
+            <h3>Brand <em>Storytelling</em></h3>
+            <div class="pc-svc-body"><p>Narrative, voice and copy that turn products into a brand people remember and come back to.</p><ul class="pc-svc-tags"><li>Brand Voice</li><li>Copywriting</li><li>Founder Stories</li></ul></div>
+            <span class="pc-svc-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- BRANDS -->
+      <section class="pc-brands" id="brands" aria-labelledby="brandsTitle">
+        <div class="pc-brands-inner">
+          <div class="section-bar"><h2 id="brandsTitle">[ BRANDS WE'VE WORKED WITH ]</h2><span id="brandCount">[ BRANDS ]</span></div>
+          <div class="pc-services-head"><p>Trusted by brands <em>that care</em><span class="period">.</span></p><span>FOUNDERS AND TEAMS WHO<br>BUILT THEIR STOREFRONTS WITH US.</span></div>
+        </div>
+        <div class="pc-marquee" id="brandMarquee">
+          <ul class="pc-marquee-track" id="brandTrack"></ul>
+        </div>
+      </section>
+
+      <!-- REELS -->
+      <section class="pc-reels section" id="reels" aria-labelledby="reelsTitle">
+        <div class="section-bar"><h2 id="reelsTitle">[ REELS WE'VE EDITED ]</h2><span id="reelCount">[ SHORT-FORM VIDEO ]</span></div>
+        <div class="pc-reels-head">
+          <div class="pc-services-head"><p>Edits that <em>stop the scroll</em><span class="period">.</span></p></div>
+          <div class="pc-reels-nav"><button type="button" id="reelPrev" aria-label="Previous reels">←</button><button type="button" id="reelNext" aria-label="Next reels">→</button></div>
+        </div>
+        <div class="pc-reel-rail" id="reelRail"></div>
+      </section>
+
       <section class="approach" id="approach" aria-label="Our approach"><div class="ambient-orb orb-one"></div><div class="ambient-orb orb-two"></div><div class="ambient-orb orb-three"></div><div class="approach-inner"><span>[ OUR PHILOSOPHY ]</span><h2>GOOD DESIGN<br>IS GOOD BUSINESS.</h2><p>Creative enough to make an impression.<br>Functional enough to drive action.</p></div></section>
+
       <section class="contact section" id="contact" aria-labelledby="contactTitle"><div class="contact-top"><span>[ LET'S COLLABORATE ]</span><span>HAVE A STORE IN MIND?</span></div><h2 id="contactTitle">LET'S BUILD<br><span>SOMETHING</span><br>GREAT<span class="period">.</span></h2><div class="contact-bottom"><p>Have a new idea, an existing Shopify store, or a redesign in mind? Tell us about it.</p><a class="contact-button" id="emailLink" href="mailto:hello@yourstudio.com?subject=Shopify%20Project%20Enquiry">START A PROJECT <span>↗</span></a></div></section>
     </main>
     <footer><a href="#top">[ Pixel.cartstudio ]</a><span>SHOPIFY DESIGN + DEVELOPMENT</span><div><a id="footerEmail" href="mailto:hello@yourstudio.com">EMAIL ↗</a><a id="instagramLink" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a><a href="#top">BACK TO TOP ↑</a></div><small>© <span id="year"></span> PIXEL.CARTSTUDIO. ALL RIGHTS RESERVED.</small></footer>
   </div>
+
   <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle"><button class="dialog-close" id="dialogClose" aria-label="Close project">✕</button><div class="dialog-art" id="dialogArt"></div><div class="dialog-content"><div class="dialog-eyebrow" id="dialogCategory"></div><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><div class="dialog-actions"><a id="dialogVisit" href="#" target="_blank" rel="noopener noreferrer">VISIT WEBSITE ↗</a><span id="dialogServices"></span></div></div></dialog>
+
+  <dialog class="pc-reel-dialog" id="reelDialog" aria-label="Reel player">
+    <button class="dialog-close pc-reel-close" id="reelClose" aria-label="Close reel">✕</button>
+    <video id="reelPlayer" controls playsinline></video>
+    <div class="pc-reel-caption"><span id="reelCaption"></span><a id="reelLink" href="#" target="_blank" rel="noopener noreferrer" hidden>VIEW ON INSTAGRAM ↗</a></div>
+  </dialog>
 </body>
 </html>
